@@ -1,7 +1,6 @@
 module.exports = {
     "rules": {
-        // the rules below should be sorted in a same way they are sorted on http://eslint.org/docs/rules page
-        // http://eslint.org/docs/rules/#possible-errors
+        // Possible Errors
         "no-caller": 2,
         "no-control-regex": 2,
         "no-empty": 1,
@@ -10,7 +9,7 @@ module.exports = {
         "no-unsafe-negation": 1,
         "valid-jsdoc": 0,
         "valid-typeof": 2,
-        // http://eslint.org/docs/rules/#best-practices
+        // Best Practices
         "curly": 2,
         "eqeqeq": [2, "smart"],
         "guard-for-in": 0,
@@ -27,19 +26,19 @@ module.exports = {
         "no-redeclare": 1,
         "no-script-url": 2,
         "wrap-iife": [2, "outside"],
-        // http://eslint.org/docs/rules/#strict-mode
+        // Strict Mode
         "strict": 2,
-        // http://eslint.org/docs/rules/#variables
+        // Variables
         "no-shadow-restricted-names": 2,
         "no-shadow": 1,
         "no-undef": 2,
         "no-unused-vars": [1, {"vars": "all", "args": "none"}],
         "no-use-before-define": 0,
-        // http://eslint.org/docs/rules/#nodejs-and-commonjs
+        // Node.js and CommonJS
         "no-new-require": 2,
-        // http://eslint.org/docs/rules/#stylistic-issues
+        // Stylistic Issues
         "block-spacing": 1,
-        "brace-style": [1, "1tbs", { allowSingleLine: true }],
+        "brace-style": [1, "1tbs", { "allowSingleLine": true }],
         "camelcase": 1,
         "comma-dangle": 2,
         "comma-spacing": 1,
@@ -48,7 +47,7 @@ module.exports = {
         "eol-last": 1,
         "func-call-spacing": 1,
         "indent": [1, 4],
-        "key-spacing": [1, { beforeColon: false, afterColon: true }],
+        "key-spacing": [1, { "beforeColon": false, "afterColon": true }],
         "max-len": [1, 120],
         "new-cap": [0, {
             "capIsNewExceptions": [
@@ -85,10 +84,10 @@ module.exports = {
         "ecmaVersion": 6,
         "sourceType": "script",
         "ecmaFeatures": {
-          "arrowFunctions": true,
-          "binaryLiterals": true,
-          "blockBindings": true,
-          "classes": true
+            "arrowFunctions": true,
+            "binaryLiterals": true,
+            "blockBindings": true,
+            "classes": true
         }
     }
 };
